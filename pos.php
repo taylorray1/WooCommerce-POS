@@ -21,10 +21,10 @@ function pos_form() {
 				include 'site-view.php';
 			if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), 'mobile') || strstr(strtolower($_SERVER['HTTP_USER_AGENT']), 'android')) 
 			{
-        		include 'mobile-view.php';
-    		}
-    		else
-    		{
+        			include 'mobile-view.php';
+    			}
+    			else
+    			{
 				include 'site-view.php';
 			}
 		}
