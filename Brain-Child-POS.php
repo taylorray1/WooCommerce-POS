@@ -1,12 +1,12 @@
 <?php
 
 /*
-Plugin Name: Brain Child Point of Sale
-Plugin URI: http://www.thebrainchilddesign.com/
+Plugin Name: Woo-POS (WooCommerce Point of Sale)
+Plugin URI: 
 Description: A Plugin Currently in Devlopment for Brainchild personal use (Point of Sale Application)
 Author: Justin Marbutt
 Version: 0.1
-Author URI: http://www.thebrainchilddesign.com
+Author URI: http://www.justintm.com
 */
 
 include 'pos.php';
