@@ -16,10 +16,11 @@ var names = new Object();
             $price = "0.00";
         if($price != "")
         {
-            echo 'prices["'.$product->id.'"] = '.$price.';';
-            echo 'names["'. $product->id.'"] = "'.$title.'";';
+            echo 'prices["'.$my_post_result->ID.'"] = '.$price.';';
+            echo 'names["'. $my_post_result->ID.'"] = "'.$title.'";';
         }
     }
+    i++;
 ?>
 
 function set_item_qty(product_id, qty)
