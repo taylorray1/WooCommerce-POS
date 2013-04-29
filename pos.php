@@ -3,7 +3,7 @@
 function pos_form() {
 	global $woocommerce;
 	$siteurl = get_site_url();
-	$plugin_name = "Brain-Child-POS";
+	$plugin_name = "Woo-POS";
 	$current_user = wp_get_current_user();
 	$current_customer_text = 'New Customer';
 	$current_customer_ID;
